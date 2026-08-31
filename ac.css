@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 nav{
     background-color:  #303030;;
     overflow: hidden;
@@ -34,4 +37,19 @@ nav a:hover{
         transform: translateX(500%);
     }
 }
+@media (max-width: 600px) {
+  nav a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
 
+  table {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  th, td {
+    padding: 6px;
+  }
+}
